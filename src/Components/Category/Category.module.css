@@ -1,0 +1,122 @@
+ /* /* Style for category container
+ .category {
+    height: 350px;
+    width: 300px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+   
+ 
+} 
+
+
+/* Style for category images */
+ /* .category img {
+    width: 100%;
+    object-fit: contain; /* Use cover to ensure the entire area of the image is covered */
+     /* max-height: 250px;
+     padding: 0px 10px;
+
+  */
+
+/* Style links inside category containers */
+ /* .category a {
+    text-decoration: none;
+    color: black;
+} */
+
+/* 
+a{
+    text-decoration: none;
+        color: rgb(9, 132, 209);
+}
+.category p{
+    padding: 5px;
+    margin-left: 15px;
+}
+
+
+
+.category p {
+   
+    color: black(9, 132, 209);
+    font-size: 12px;
+    font-weight: bold;
+    margin-left: 10px;
+    text-align: left
+}
+ 
+.category h2 {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;  */
+
+
+
+/* Adjust category container layout */
+ 
+   /* .category_container {
+    position: relative;
+    margin-top: -250px;;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    max-width: 1600px;
+    place-items: center; /* Increase gap for better spacing */
+ 
+
+
+
+    /* Style for category container */
+.category {
+    height: 300px;
+    width: 250px;
+    background-color: rgba(255, 246, 246, 0.884);
+    box-shadow: 0 0 10px rgba(167, 179, 9, 0.945); 
+    margin: 20px; /* Add margin for spacing */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px; /* Add padding for inner content */
+}
+
+/* Style for category images */
+.category img {
+    width: 100%;
+    object-fit: contain;
+    max-height: 100px;
+    padding: 0px 10px;
+    
+}
+
+/* Style links inside category containers */
+.category a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Adjust category container layout */
+.category_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px; /* Add gap between category cards */
+   
+    margin-top: -300px;
+    grid-template-columns: repeat(auto-fit, minmax(4, 1fr));
+}
+
+.category p {
+    color: black; /* Correct color value */
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center; /* Center align text */
+}
+
+.category h2 {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center; 
+}

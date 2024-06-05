@@ -1,0 +1,98 @@
+.login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    
+        
+}
+
+.login  img {
+    width: 100px;
+    margin: 30px auto;
+    object-fit: contain;
+    padding: 10px;
+}
+
+.login_container {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+.login_container h1 {
+    text-align: center;
+     margin: 20px 0;
+     font-size: 25px;
+     font-weight: bold;
+    
+}
+.login_container form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+
+.login_container form div{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}  
+ 
+.login_container from input{
+    padding: 8px 16px;
+    border: 1px solid gray;
+    border-radius: 5px; 
+    margin-bottom: 10px;
+    background-color: white;
+    width: 100%;
+    border: none;
+
+} 
+.login_containerer form input:focus{
+   outline: 5px solid skyblue;
+}
+.login_container form button{
+    width: 100%;
+    padding: 8px 16px;
+    border: 1px solid gray;
+    border-radius: 5px; 
+    margin-bottom: 10px;
+    background-color: #f0c14b;
+    border: none;
+    cursor: pointer;
+    color: black;
+}   
+.login_container form button:hover{
+    background-color: #D49644;
+    color: white;
+}  
+.login_container form p{
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 12px;
+}
+.login_container form p a{
+    text-decoration: none;
+    color: #f0c14b;
+}  
+.login_container p{
+    padding: 10px 0px;
+    font-size: 14px;
+
+}
+.login-btn{
+    width: 100%;
+    padding: 8px 16px;
+    border: 1px solid gray;
+    border-radius: 5px; 
+    margin-bottom: 10px;
+    background-color: #f0c14b;
+    border: none;
+    cursor: pointer;
+    color: black;
+}
